@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="0 0 56 56">
+  <defs>
+    <filter id="Ellipse_1469" x="0" y="0" width="56" height="56" filterUnits="userSpaceOnUse">
+      <feOffset input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur"/>
+      <feFlood flood-opacity="0.161"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+    <filter id="Ellipse_1469-2" x="0" y="0" width="56" height="56" filterUnits="userSpaceOnUse">
+      <feOffset dy="3" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="3" result="blur-2"/>
+      <feFlood flood-opacity="0.161" result="color"/>
+      <feComposite operator="out" in="SourceGraphic" in2="blur-2"/>
+      <feComposite operator="in" in="color"/>
+      <feComposite operator="in" in2="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g id="Group_93568" data-name="Group 93568" transform="translate(9.26 8.523)">
+    <g data-type="innerShadowGroup">
+      <g transform="matrix(1, 0, 0, 1, -9.26, -8.52)" filter="url(#Ellipse_1469)">
+        <circle id="Ellipse_1469-3" data-name="Ellipse 1469" cx="19" cy="19" r="19" transform="translate(9 9)" fill="#00262b"/>
+      </g>
+      <g transform="matrix(1, 0, 0, 1, -9.26, -8.52)" filter="url(#Ellipse_1469-2)">
+        <circle id="Ellipse_1469-4" data-name="Ellipse 1469" cx="19" cy="19" r="19" transform="translate(9 9)" fill="#fff"/>
+      </g>
+    </g>
+    <g id="briefcase" transform="translate(8.245 9.281)">
+      <path id="Path_193099" data-name="Path 193099" d="M19.312,5.625H11.983a.733.733,0,0,0-.733.733v.733h8.795V6.358A.733.733,0,0,0,19.312,5.625Z" transform="translate(-4.654 -4.159)" fill="none"/>
+      <path id="Path_193100" data-name="Path 193100" d="M23.111,9.238A2.935,2.935,0,0,0,20.18,6.307h-2.2V5.574a2.2,2.2,0,0,0-2.2-2.2H8.454a2.2,2.2,0,0,0-2.2,2.2v.733h-2.2A2.935,2.935,0,0,0,1.125,9.238v2.2H23.111Zm-6.6-2.932H7.721V5.574a.733.733,0,0,1,.733-.733h7.329a.733.733,0,0,1,.733.733Z" transform="translate(-1.125 -3.375)" fill="#fff"/>
+      <path id="Path_193101" data-name="Path 193101" d="M15.783,18.367a1.1,1.1,0,0,1-1.1,1.1H9.553a1.1,1.1,0,0,1-1.1-1.1v-.183A.183.183,0,0,0,8.271,18H1.125v6.6a2.932,2.932,0,0,0,2.932,2.932H20.18A2.932,2.932,0,0,0,23.111,24.6V18H15.966a.183.183,0,0,0-.183.183Z" transform="translate(-1.125 -8.473)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
