@@ -6,23 +6,23 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 
 const Testimonial = () => {
-  function PrevArrow(props: { className?: string; onClick?: () => void }) {
-    const { className, onClick } = props;
-    return (
-      <div className={`${className} custom-prev`} onClick={onClick}>
-        <Image src="/lt.svg" alt="lt" width={22} height={22} />
-      </div>
-    );
-  }
+  // function PrevArrow(props: { className?: string; onClick?: () => void }) {
+  //   const { className, onClick } = props;
+  //   return (
+  //     <div className={`${className} custom-prev`} onClick={onClick}>
+  //       <Image src="/lt.svg" alt="lt" width={22} height={22} />
+  //     </div>
+  //   );
+  // }
 
-  function NextArrow(props: { className?: string; onClick?: () => void }) {
-    const { className, onClick } = props;
-    return (
-      <div className={`${className} custom-next`} onClick={onClick}>
-        <Image src="/rt.svg" alt="lt" width={22} height={22} />
-      </div>
-    );
-  }
+  // function NextArrow(props: { className?: string; onClick?: () => void }) {
+  //   const { className, onClick } = props;
+  //   return (
+  //     <div className={`${className} custom-next`} onClick={onClick}>
+  //       <Image src="/rt.svg" alt="lt" width={22} height={22} />
+  //     </div>
+  //   );
+  // }
 
   const reviews = [
     {
@@ -51,8 +51,8 @@ const Testimonial = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    nextArrow: <NextArrow />,
-    prevArrow: <PrevArrow />,
+    // nextArrow: <NextArrow />,
+    // prevArrow: <PrevArrow />,
     autoplay: true,
     autoplaySpeed: 4000,
     customPaging: () => (
