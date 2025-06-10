@@ -76,7 +76,7 @@ export default function Infoform() {
     alert("Form submitted successfully!");
   };
 
-  if (!hasMounted) return null; // Prevent hydration mismatch
+  if (!hasMounted) return null; 
 
   return (
     <div className="py-4 lg:py-6">

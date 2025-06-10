@@ -6,24 +6,6 @@ import "slick-carousel/slick/slick-theme.css";
 import Image from "next/image";
 
 const Testimonial = () => {
-  // function PrevArrow(props: { className?: string; onClick?: () => void }) {
-  //   const { className, onClick } = props;
-  //   return (
-  //     <div className={`${className} custom-prev`} onClick={onClick}>
-  //       <Image src="/lt.svg" alt="lt" width={22} height={22} />
-  //     </div>
-  //   );
-  // }
-
-  // function NextArrow(props: { className?: string; onClick?: () => void }) {
-  //   const { className, onClick } = props;
-  //   return (
-  //     <div className={`${className} custom-next`} onClick={onClick}>
-  //       <Image src="/rt.svg" alt="lt" width={22} height={22} />
-  //     </div>
-  //   );
-  // }
-
   const reviews = [
     {
       name: "Matthew Martin",
@@ -51,13 +33,11 @@ const Testimonial = () => {
     speed: 500,
     slidesToShow: 2,
     slidesToScroll: 1,
-    // nextArrow: <NextArrow />,
-    // prevArrow: <PrevArrow />,
+
     autoplay: true,
     autoplaySpeed: 4000,
     customPaging: () => (
       <div className="custom-dott testi_dott md:my-16 my-4">
-        {/* <span className="block w-1 h-1 bg-gray-300 rounded-full"></span> */}
       </div>
     ),
     dotsClass: "slick-dotss custom-dotss",

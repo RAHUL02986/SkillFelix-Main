@@ -37,15 +37,15 @@ const Contact: React.FC = () => {
         </div>
       </section>
 
-      <div className="container">
-        <div className="lg:flex justify-between lg:gap-8 text-white lg:my-16 py-8 mx-4">
+      <div className="container  p-2">
+        <div className="lg:flex justify-between lg:gap-8 text-white lg:my-16 py-8 ">
           <div className="w-full rounded-tl-md rounded-tr-md rounded-bl-md rounded-br-[80px] shadow-2xl">
             <div
               className="p-6 bg-[url('/image2/circuit1.jpg')] rounded-2xl h-[280px] bg-center bg-cover flex justify-start items-end"
               role="img"
               aria-label="Circuit design image 1"
             >
-              <div className="flex mr-4 text-md rounded bg-[#0B96F3] py-1 px-4">
+              <div className="flex mr-4 text-md items-center rounded bg-[#0B96F3] py-1 px-4">
                 <FontAwesomeIcon icon={faCalendar} className="w-[14px] mr-3" />
                 <span className="text-[18px]">&rarr;</span>
               </div>
@@ -91,7 +91,7 @@ const Contact: React.FC = () => {
               role="img"
               aria-label="Circuit design image 2"
             >
-              <div className="flex mr-4 text-md rounded bg-[#0B96F3] py-1 px-4">
+              <div className="flex mr-4 items-center text-md rounded bg-[#0B96F3] py-1 px-4">
                 <FontAwesomeIcon icon={faCalendar} className="w-[14px] mr-3" />
                 <span className="text-[18px]">&rarr;</span>
               </div>

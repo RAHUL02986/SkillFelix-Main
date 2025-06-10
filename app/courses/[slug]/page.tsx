@@ -31,7 +31,6 @@ export default function CoursePage({ params }: Props) {
             <section className="bg-gradient-to-r from-[#032035] to-[#0B96F3] text-white py-24 px-6 md:px-12">
                 <div className="container mx-auto flex flex-col p-0 md:flex-row items-center gap-12">
 
-                    {/* Text Content Animation */}
                     <motion.div
                         className="md:w-1/2"
                         initial={{ x: -100, opacity: 0 }}
@@ -50,7 +49,6 @@ export default function CoursePage({ params }: Props) {
                         <p className="mt-4 italic">Category: {course.category}</p>
                     </motion.div>
 
-                    {/* Image Animation */}
                     <motion.div
                         className="md:w-1/2"
                         initial={{ x: 100, opacity: 0 }}
@@ -60,8 +58,8 @@ export default function CoursePage({ params }: Props) {
                         <Image
                             src={course.image}
                             alt={course.title}
-                            width={800} // adjust width
-                            height={500} // adjust height
+                            width={800} 
+                            height={500} 
                             className="rounded-xl shadow-xl w-full max-w-2xl mx-auto"
                             priority
                         />

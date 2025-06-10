@@ -405,3 +405,12 @@ background:linear-gradient(315.61deg, #FFFFFF 53.51%, #F2FAFF 91.44%);
   inset: 0;
   z-index: 0;
 }
+
+.slick-prev, .slick-next{
+  top: 40% !important;
+}
+@media (max-width: 1024px) { 
+  .slick-prev, .slick-next{
+    display: none !important;
+  }
+}
