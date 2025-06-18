@@ -17,9 +17,8 @@ const Contact: React.FC = () => {
                 <h2 className="text-3xl md:text-5xl font-normal  text-center lg:text-left">
                   Our <span className="text-[#0B96F3]">Collaborators</span>
                 </h2>
-                <p className="text-base text-center lg:text-left max-w-100">
-                  The Goto place for Industry standard VLSI learning with highly
-                  rated Programs.
+                <p className="text-base text-center lg:text-left max-w-[60%]">
+                 Maven Silicon is the essential choice for recruiting by more than 250 leading semiconductor companies. This enables us to empower the next generation in VLSI & Embedded Systems technology and bring success and advancements to their VLSI & Embedded Systems career.
                 </p>
                 <div className="flex justify-center lg:justify-start">
                   <button className="px-4  py-2 bg-[#0B96F3] cursor-pointer hover:shadow-lg hover:bg-[#000717]  text-white rounded my-4">

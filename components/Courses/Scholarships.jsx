@@ -68,42 +68,7 @@ export default function Scholarships() {
 
   return (
     <div className="bg-white flex flex-col items-center justify-center md:px-5 py-10 px-2 md:py-16">
-      {/* <div className="container py-16 px-0 m-auto text-center">
-        <h2 className="text-3xl md:text-5xl   mb-12">You Can <span className='text-[#0B96F3]'>Win A Scholarship</span></h2>
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
-          {scholarshipSteps.map((step, index) => (
-            <div key={index} className="flex flex-col items-center text-center">
-              <div className="w-36 h-36 relative mb-8">
-                <Image
-                  src={step.icon}
-                  alt="Scholarship Step"
-                  fill
-                  className="object-cover"
-                />
-              </div>
-              <p className="text-[#4F4F4F]">
-                {step.title.split(step.boldText ?? "").map((part, i) => (
-                  <span key={i}>
-                    {part}
-                    {i === 0 && step.boldText && (
-                      <strong className="text-black ">
-                        {step.boldText}
-                      </strong>
-                    )}
-                  </span>
-                ))}
-                {step.linkText && (
-                  <div className="mt-2">
-                    <a href={step.linkUrl} className="underline text-sm text-[#4F4F4F]">
-                      {step.linkText}
-                    </a>
-                  </div>
-                )}
-              </p>
-            </div>
-          ))}
-        </div>
-      </div> */}
+     
        <div ref={ref} className="container py-16 px-0 m-auto text-center">
       <h2 className="text-3xl md:text-5xl mb-12">
         You Can <span className="text-[#0B96F3]">Win A Scholarship</span>
